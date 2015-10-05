@@ -1,0 +1,3 @@
+<?php if($section=="contact"){echo 'class="seclected"';} ?>
+
+<?php if($section == "contacts"){echo "on";}?>"><a href="contact.php">
