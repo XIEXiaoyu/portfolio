@@ -1,41 +1,29 @@
+<?php include("inc/works.php"); ?>
 <?php 
 $section = "index";
 include("inc/header.php");
 ?>
-    
     <div id="wrapper">
       <section>
         <ul id="gallery">
-          <li>
-            <a href="img/numbers-01.jpg">
-              <img src="img/numbers-01.jpg" alt="">
-              <p>Checkout without paper but QR code</p>
+          <li><div class="item">
+            <a href="intro.php?work_key=shirtsShop">
+              <img src="img/shirtsShop_s.jpg" alt="">
+              <p>An online shirts shop</p>
             </a>
-          </li>        
-          <li>
-            <a href="img/numbers-02.jpg">
-              <img src="img/numbers-02.jpg" alt="">
-              <p>Playing with blending modes in Photoshop.</p>
+          </div></li>        
+          <li><div class="item">
+            <a href="intro.php?work_key=paperlessCheckout">
+              <img src="img/paperlessCheckout_s.jpg" alt="">
+              <p>Checkout without paper but with QR code</p>
             </a>
-          </li>
-          <li>
-            <a href="img/numbers-06.jpg">
-              <img src="img/numbers-06.jpg" alt="">
-              <p>Trying to create an 80's style of glows.</p>
+          </div></li>        
+          <li><div class="item">
+            <a href="intro.php?work_key=greenCheckout">
+              <img src="img/greenCheckout_s.jpg" alt="">
+              <p>An Android App to replace paper receipt</p>
             </a>
-          </li>
-          <li>
-            <a href="img/numbers-09.jpg">
-              <img src="img/numbers-09.jpg" alt="">
-              <p>Drips created using Photoshop brushes.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-12.jpg">
-              <img src="img/numbers-12.jpg" alt="">
-              <p>Creating shapes using repetition.</p>
-            </a>
-          </li>
+          </div></li>        
         </ul>
       </section>
 <?php 

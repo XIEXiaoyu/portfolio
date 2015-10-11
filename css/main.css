@@ -123,6 +123,10 @@ PAGE: PORTFOLIO
   color: #bdc3c7;
 }
 
+#gallery li div.item{
+  border: 1px solid #ccc;
+}
+
 #gallery li a p {
   margin: 0;
   padding: 5%;
@@ -176,6 +180,27 @@ PAGE: CONTACT
 .contact-info li.twitter a{
   background-image: url('../img/twitter.png');
 }
+
+
+
+/**********************************
+PAGE: INTRO
+ **********************************/
+p.btn-group{
+  text-align:right;
+}
+a.btn{
+  display:inline-block;
+  padding:5px 10px;
+  border-radius:4px;
+  background: #6ab47b;
+  border:1px solid #599a68;
+  color:#fff;
+}
+a.btn:hover{
+  background:#7ac48a;
+}
+
 
 
 
