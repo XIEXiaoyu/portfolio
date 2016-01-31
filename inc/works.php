@@ -20,4 +20,10 @@
 		"link_label" => 'Download',
 		"url" => "http://paperlessCheckout.xiejun.be/GreenCheckout.apk"
 	);
+	$works["loveConnect"] = array(
+		"name" => "loveConnect - a simplified version of Twitter",
+		"intro" => "This Web application is imitating Twitter. The purpose to develop it is to integrate my skills into a relatively comlicated application.<br><br>It&#39; built utilising the Laravel 5.0.2 Web framework. We also use JavaScript to make it more interacitve for users.<br><br>By now, it is still under construction, while the timeline function is ready to use, there is the Email of &quot;xiejun01@163.com&quot; and the password of &quot;1234&quot; is set for you to login and play around.",
+		"img" => "img/loveConnect.png",
+		"url" => "http://loveconnect.pearstart.com/login"
+	);
 ?>

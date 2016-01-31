@@ -15,7 +15,7 @@ include("inc/header.php");
         <p>Introduction: <?php echo $works[$work_key]["intro"]; ?></p>
 
         <p class="btn-group">
-            <a class="btn" href="http://portfolio.xiejun.be">&laquo; Back to portfilio</a>
+            <a class="btn" href="index.php">&laquo; Back to portfilio</a>
 
             <a class="btn" href="<?php echo $works[$work_key]["url"]; ?>"><?php echo isset($work['link_label']) ? $work['link_label'] : 'Visit website' ?> &raquo;</a>
         </p>

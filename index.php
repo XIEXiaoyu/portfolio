@@ -23,7 +23,13 @@ include("inc/header.php");
               <img src="img/greenCheckout_s.jpg" alt="">
               <p>An Android App to replace paper receipt</p>
             </a>
-          </div></li>        
+          </div></li> 
+          <li><div class="item">
+            <a href="intro.php?work_key=loveConnect">
+              <img src="img/loveConnect_s.jpg" alt="">
+              <p>A simplified version of Twitter</p>
+            </a>
+          </div></li> 
         </ul>
       </section>
 <?php 
